@@ -10,6 +10,13 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "var(--primary)",
+        'primary-deep': "var(--primary-deep)",
+        secondary: "var(--secondary)",
+        accent: "var(--accent)",
+        transparentbg: "var(--transparentbg)",
+        transparentbg2: "var(--transparentbg2)",
+        
       },
     },
   },
