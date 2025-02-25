@@ -4,11 +4,10 @@ import friends from "../../images/friends.png";
 import content from "../../images/content.png";
 import secure from "../../images/secure.png";
 import Image from "next/image";
-
-import SignUpForm from "../components/SignUpForm";
+import LoginForm from "../components/LoginForm";
 
 const Page = () => {
-  
+ 
 
   return (
     <div className="h-screen overflow-hidden  grid grid-cols-5 justify-items-center p-20 gap-6 relative">
@@ -74,7 +73,7 @@ const Page = () => {
       </section>
 
       {/* Form Section */}
-      <SignUpForm/>
+     <LoginForm/>
     </div>
   );
 };
