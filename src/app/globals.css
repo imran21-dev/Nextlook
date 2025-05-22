@@ -38,6 +38,7 @@ body {
   font-family: "Roboto", serif;
 }
 
+
 .logo{
   font-family: "New Rocker", serif;
 }
@@ -48,6 +49,27 @@ body {
   }
 }
 
+.aside-container::-webkit-scrollbar{
+@apply w-[6px]
+}
+.aside-container::-webkit-scrollbar-track{
+@apply bg-transparent rounded-full 
+
+}
+.aside-container::-webkit-scrollbar-thumb{
+@apply bg-transparent rounded-full
+
+}
+.aside-container:hover::-webkit-scrollbar-thumb{
+@apply bg-transparentbg2
+}
+
+.story-img{
+  transition: transform 0.3s ease
+}
+.story-container:hover .story-img{
+@apply scale-110 
+}
 
 
 

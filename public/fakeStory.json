@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "profilePhoto": "https://randomuser.me/api/portraits/men/1.jpg",
+      "storyThumbnail": "https://i.postimg.cc/7YxXH93J/beautiful-mountains-landscape-1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "profilePhoto": "https://randomuser.me/api/portraits/women/2.jpg",
+      "storyThumbnail": "https://i.postimg.cc/7YxXH93J/beautiful-mountains-landscape-1.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Alice Brown",
+      "profilePhoto": "https://randomuser.me/api/portraits/women/3.jpg",
+      "storyThumbnail": "https://i.postimg.cc/7YxXH93J/beautiful-mountains-landscape-1.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Michael Johnson",
+      "profilePhoto": "https://randomuser.me/api/portraits/men/4.jpg",
+      "storyThumbnail": "https://i.postimg.cc/7YxXH93J/beautiful-mountains-landscape-1.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Emma Wilson",
+      "profilePhoto": "https://randomuser.me/api/portraits/women/5.jpg",
+      "storyThumbnail": "https://i.postimg.cc/7YxXH93J/beautiful-mountains-landscape-1.jpg"
+    },
+    {
+      "id": 6,
+      "name": "David Miller",
+      "profilePhoto": "https://randomuser.me/api/portraits/men/6.jpg",
+      "storyThumbnail": "https://i.postimg.cc/7YxXH93J/beautiful-mountains-landscape-1.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Sophia Martinez",
+      "profilePhoto": "https://randomuser.me/api/portraits/women/7.jpg",
+      "storyThumbnail": "https://i.postimg.cc/7YxXH93J/beautiful-mountains-landscape-1.jpg"
+    }
+  ]
+  

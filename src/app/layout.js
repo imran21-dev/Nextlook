@@ -7,10 +7,7 @@ import { Toaster } from "@/components/ui/sonner";
 import { AppProvider } from "./AppContext";
 import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
-
-
-
-
+import QueryWwrapper from "./components/QueryWwrapper";
 
 const roboto = Roboto({
   weight: "400",
@@ -24,12 +21,14 @@ export const metadata = {
   
 };
 
+
 export default function RootLayout({ children }) {
  
   
   return (
-    <html lang="en" className="max-w-[1920px] mx-auto">
+    <html lang="en">
       <body className={`${roboto.className}  antialiased h-screen overflow-y-auto`}>
+        <QueryWwrapper>
         <SessionWrapper>
         <ThemeProvider attribute="class">
         <AppProvider>
@@ -41,6 +40,7 @@ export default function RootLayout({ children }) {
         </AppProvider>
         </ThemeProvider>
         </SessionWrapper>
+        </QueryWwrapper>
         <Toaster />
       </body>
     </html>

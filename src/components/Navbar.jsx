@@ -6,6 +6,7 @@ import { PiBellSimple } from "react-icons/pi";
 import defaultUser from "../images/fakeuser.webp";
 import { HiOutlineMenu } from "react-icons/hi";
 import { usePathname } from "next/navigation";
+import { useEffect } from "react";
 
 const Navbar = () => {
     const {user, handleSidebar} = useAppContext()
@@ -16,6 +17,8 @@ const Navbar = () => {
     if (pathname === '/login' || pathname === '/signup') {
       return null; 
     }
+
+
     
   return (
     <nav className="py-3 flex items-center justify-between px-5">

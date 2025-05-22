@@ -1,24 +1,26 @@
+// import UserStory from "@/components/UserStory";
 
-import { getServerSession } from "next-auth";
-import Image from "next/image";
-import { authOptions } from "./api/auth/[...nextauth]/route";
-import { redirect } from "next/navigation";
-import SignOutButton from "@/components/SignOutButton";
+import UploadingBar from "@/components/UploadingBar";
+import UserStory from "@/components/UserStory";
 
 
-export default async function Home() {
-  const session = await getServerSession(authOptions);
-  if (!session) {
-    redirect('/login')
-  }
 
+export default function Home() {
+ 
   return (
-    <div className="text-center">
-     {/* <h1>Welcome, {session.user.name}!</h1>
+    <div className="flex w-full justify-between">
+      {/* <h1>Welcome, {session.user.name}!</h1>
      <p>Email: {session.user.email}</p>
 
      <SignOutButton/> */}
-     ssss
+      <section className="w-10/12 flex flex-col mx-auto px-44 ">
+        {/* <UserStory/> */}
+        <UserStory />
+
+        {/* Uploading Bar */}
+        <UploadingBar />
+      </section>
+      <section className="w-64 ">hello</section>
     </div>
   );
 }
